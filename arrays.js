@@ -12,3 +12,8 @@ function destructivelyAddElementToBeginningOfArray(a, b) {
 function addElementToEndOfArray(a, b) {
   return [...a, b]
 }
+
+destructivelyAddElementToEndOfArray(a, b) {
+  a.pop(b)
+  return a
+}
