@@ -21,3 +21,7 @@ function destructivelyAddElementToEndOfArray(a, b) {
 function accessElementInArray(a, b) {
   return a[b]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(a, b) {
+  return a.unshift(b)
+}
